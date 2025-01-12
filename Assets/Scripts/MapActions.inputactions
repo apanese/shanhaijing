@@ -1,0 +1,74 @@
+{
+    "name": "MapActions",
+    "maps": [
+        {
+            "name": "Hero",
+            "id": "52c64bb7-b800-4e54-a410-20ac573200f1",
+            "actions": [
+                {
+                    "name": "Delta",
+                    "type": "Value",
+                    "id": "7025566a-4608-4177-ade9-a4da6c96e8d7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "29c8a0b6-a50e-4164-8f56-e682e906e939",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Press",
+                    "type": "Value",
+                    "id": "fc686866-b270-4c23-8e7f-d91bfc686e2a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7f91fa23-d5de-4eea-8e9a-9b87eec729b3",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc683d22-1fa9-48ec-8bef-9d2ca6ef8839",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8dd80e2d-d419-4c12-adaa-9ed00b55a657",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
